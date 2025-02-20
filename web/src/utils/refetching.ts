@@ -1,5 +1,6 @@
 import type { QueryClient } from '@tanstack/react-query';
 import { ONE_MINUTE, QUERY_KEYS } from 'api/helpers';
+import { addHours } from 'date-fns';
 
 import { TimeRange } from './constants';
 import { isValidHistoricalTimeRange } from './helpers';
@@ -39,7 +40,6 @@ export function getStaleTime(timeRange: TimeRange, urlDatetime?: string) {
     return 0;
   }
   const now = new Date();
-  const nextHour = new Date(now);
-  nextHour.setHours(nextHour.getHours() + 1, 0, 0, 0);
+  const nextHour = addHours(now, 1);
   return nextHour.getTime() - now.getTime();
 }

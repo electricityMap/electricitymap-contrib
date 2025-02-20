@@ -87,7 +87,7 @@
     "d3-scale": "^4.0.2",
     "d3-selection": "^3.0.0",
     "d3-shape": "^3.2.0",
-    "date-fns": "^3.6.0",
+    "date-fns": "^4.1.0",
     "geojson": "^0.5.0",
     "i18next": "^24.2.2",
     "i18next-browser-languagedetector": "^8.0.2",

@@ -1,5 +1,6 @@
 import { Button } from 'components/Button';
 import { FormattedTime } from 'components/Time';
+import { addDays, subDays, subHours } from 'date-fns';
 import { useAtomValue } from 'jotai';
 import { ArrowRightToLine, ChevronLeft, ChevronRight } from 'lucide-react';
 import { memo, useMemo } from 'react';
@@ -33,13 +34,9 @@ function HistoricalTimeHeader() {
       return true;
     }
 
-    const targetDate = new Date(urlDatetime);
-    targetDate.setUTCHours(targetDate.getUTCDate() - 1);
+    const targetDate = subHours(new Date(urlDatetime), 1);
 
-    const maxHistoricalDate = new Date();
-    maxHistoricalDate.setUTCDate(
-      maxHistoricalDate.getUTCDate() - MAX_HISTORICAL_LOOKBACK_DAYS
-    );
+    const maxHistoricalDate = subDays(new Date(), MAX_HISTORICAL_LOOKBACK_DAYS);
 
     return targetDate >= maxHistoricalDate;
   }, [urlDatetime]);
@@ -52,12 +49,9 @@ function HistoricalTimeHeader() {
       direction: 'forward',
     });
 
-    const currentEndDatetime = new Date(endDatetime);
-    const nextDay = new Date(currentEndDatetime);
-    nextDay.setUTCDate(nextDay.getUTCDate() + 1);
+    const nextDay = addDays(endDatetime, 1);
 
-    const fourHoursAgo = new Date();
-    fourHoursAgo.setUTCHours(fourHoursAgo.getUTCHours() - 4);
+    const fourHoursAgo = subHours(new Date(), 4);
 
     if (nextDay >= fourHoursAgo) {
       navigate({ datetime: '' });
@@ -74,9 +68,7 @@ function HistoricalTimeHeader() {
       direction: 'backward',
     });
 
-    const currentEndDatetime = new Date(endDatetime);
-    const previousDay = new Date(currentEndDatetime);
-    previousDay.setUTCDate(previousDay.getUTCDate() - 1);
+    const previousDay = subDays(endDatetime, 1);
 
     navigate({ datetime: previousDay.toISOString() });
   }

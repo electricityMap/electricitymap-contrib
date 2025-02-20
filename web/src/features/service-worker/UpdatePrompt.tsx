@@ -1,4 +1,4 @@
-import { ONE_HOUR } from 'api/helpers';
+import { ONE_HOUR, ONE_MINUTE } from 'api/helpers';
 import { Toast, useToastReference } from 'components/Toast';
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -51,7 +51,7 @@ function UpdatePrompt() {
       toastActionText={t('updatePrompt.update')}
       toastClose={close}
       toastCloseText={t('updatePrompt.dismiss')}
-      duration={60 * 1000}
+      duration={ONE_MINUTE}
     />
   );
 }

@@ -1,10 +1,7 @@
 import type { ForecastEntry } from 'api/getWeatherData';
 import { addHours } from 'date-fns';
 
-export function getReferenceTime(grib: ForecastEntry) {
-  return new Date(grib.header.refTime);
-}
+export const getReferenceTime = (grib: ForecastEntry) => new Date(grib.header.refTime);
 
-export function getTargetTime(grib: ForecastEntry) {
-  return addHours(getReferenceTime(grib), grib.header.forecastTime).getTime();
-}
+export const getTargetTime = (grib: ForecastEntry) =>
+  addHours(getReferenceTime(grib), grib.header.forecastTime).getTime();
