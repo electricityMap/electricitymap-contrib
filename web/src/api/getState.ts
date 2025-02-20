@@ -59,7 +59,6 @@ const useGetState = (): UseQueryResult<GridState> => {
   const { urlDatetime } = useParams<RouteParameters>();
   const timeRange = useAtomValue(timeRangeAtom);
   const is1HourAppDelay = useFeatureFlag('1-hour-app-delay');
-  console.log(is1HourAppDelay);
   return useQuery<GridState>({
     queryKey: [
       QUERY_KEYS.STATE,
