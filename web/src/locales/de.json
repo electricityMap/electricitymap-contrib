@@ -104,25 +104,10 @@
       "pill": "Unvollständig",
       "body": "Die Daten zur Stromerzeugung in diesem Gebiet sind unvollständig. Die fehlenden Werte wurden anhand eines statistischen Schätzmodells berechnet."
     },
-    "ESTIMATED_RECONSTRUCT_BREAKDOWN": {
-      "title": "Ausschließlich geschätzte Daten",
-      "pill": "Unpräzise",
-      "body": "Die Datenquelle gibt ausschließlich die Gesamtproduktion an. Die Stromproduktion aus erneuerbaren Quellen wird anhand aktueller Wetterdaten geschätzt. Die übrige Stromproduktion wird fossilen Energieträgern zugeordnet, wobei die Verteilung auf historischen Daten basiert."
-    },
     "estimated_generic_method": {
       "title": "Daten werden geschätzt",
       "pill": "Unpräzise",
       "body": "Für diese Zone sind unvollständige, beziehungsweise keine Daten verfügbar. Die auf der Karte gezeigten Daten sind nach bestem Wissen geschätzt, können aber von den tatsächlichen Werten abweichen."
-    },
-    "ESTIMATED_CONSTRUCT_BREAKDOWN": {
-      "title": "Ausschließlich geschätzte Daten",
-      "pill": "Nicht in Echtzeit",
-      "body": "Die Daten für diese Zone werden nicht in Echtzeit veröffentlicht und geben nur die Gesamtproduktion an. Sowohl die stündliche Produktion als auch die Produktionsquellen werden auf der Grundlage historischer Daten für jede Produktionsquelle geschätzt."
-    },
-    "ESTIMATED_CONSTRUCT_ZERO_BREAKDOWN": {
-      "title": "Ausschließlich geschätzte Daten",
-      "pill": "Nicht in Echtzeit",
-      "body": "Die Daten für diese Zone werden nicht in Echtzeit veröffentlicht und geben nur die Gesamtproduktion an. Sowohl die stündliche Produktion als auch die Produktionsquellen werden auf der Grundlage historischer Daten für jede Produktionsquelle geschätzt."
     },
     "threshold_filtered": {
       "title": "Fehlende Daten",

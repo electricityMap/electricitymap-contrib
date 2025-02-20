@@ -123,25 +123,10 @@
       "pill": "Incompleto",
       "body": "Dados de geração de eletricidade estão incompletos; valores em falta foram calculados usando um modelo de estimativa."
     },
-    "ESTIMATED_RECONSTRUCT_BREAKDOWN": {
-      "title": "Os dados são sempre estimados",
-      "pill": "Impreciso",
-      "body": "Os dados publicados para esta zona só contêm a produção total. Fontes renováveis são estimadas usando dados meteorológicos em tempo real, enquanto as fontes fósseis são aproximados com base em dados históricos para cada fonte de produção."
-    },
     "estimated_generic_method": {
       "title": "Os dados são estimados",
       "pill": "Impreciso",
       "body": "Os dados publicados para esta zona estão indisponíveis ou incompletos. Os dados mostrados no mapa são estimados ao melhor da nossa habilidade, mas podem diferir dos valores reais."
-    },
-    "ESTIMATED_CONSTRUCT_BREAKDOWN": {
-      "title": "Os dados são sempre estimados",
-      "pill": "Não em tempo real",
-      "body": "Os dados para esta zona não são publicados em tempo real e só fornecem a produção total. Tanto a produção horária quanto as fontes de produção são estimadas com base em dados históricos para cada fonte de produção."
-    },
-    "ESTIMATED_CONSTRUCT_ZERO_BREAKDOWN": {
-      "title": "Os dados são sempre estimados",
-      "pill": "Não em tempo real",
-      "body": "Os dados para esta zona não são publicados em tempo real e só fornecem a produção total. Tanto a produção horária quanto as fontes de produção são estimadas com base em dados históricos para cada fonte de produção."
     },
     "threshold_filtered": {
       "title": "Dados em falta",

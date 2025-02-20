@@ -189,25 +189,10 @@
       "pill": "Incomplètes",
       "body": "Les données relatives à la production d'électricité pour cette zone ne sont que partiellement disponibles; les valeurs manquantes ont été calculées à l'aide d'un modèle d'estimation."
     },
-    "ESTIMATED_RECONSTRUCT_BREAKDOWN": {
-      "title": "Les données sont toujours estimées",
-      "pill": "Incomplètes",
-      "body": "Les données publiées pour cette zone ne reflètent que la production totale. Les sources renouvelables sont estimées à partir des données météorologiques en temps réel, tandis que les sources fossiles sont déduites sur la base des données historiques pour chaque mode de production."
-    },
     "estimated_generic_method": {
       "title": "Données estimées",
       "pill": "Incomplètes",
       "body": "Les données publiées pour cette zone sont indisponibles ou incomplètes. Les données figurant sur la carte sont estimées au mieux de nos capacités, mais peuvent différer des valeurs réelles."
-    },
-    "ESTIMATED_CONSTRUCT_BREAKDOWN": {
-      "title": "Les données sont toujours estimées",
-      "pill": "Pas en temps réel",
-      "body": "Les données pour cette zone ne sont pas publiées en temps réel et ne fournissent que la production totale. La production horaire et les sources de production sont estimées sur la base des données historiques pour chaque source de production."
-    },
-    "ESTIMATED_CONSTRUCT_ZERO_BREAKDOWN": {
-      "title": "Les données sont toujours estimées",
-      "pill": "Pas en temps réel",
-      "body": "Les données pour cette zone ne sont pas publiées en temps réel et ne fournissent que la production totale. La production horaire et les sources de production sont estimées sur la base des données historiques pour chaque source de production."
     },
     "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL": {
       "title": "Les données sont toujours estimées",

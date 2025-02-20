@@ -172,25 +172,10 @@
       "pill": "Niekompletne",
       "body": "Dane dotyczące wytwarzania energii elektrycznej dla tej strefy są niekompletne; brakujące wartości zostały obliczone za pomocą modelu estymacji."
     },
-    "ESTIMATED_RECONSTRUCT_BREAKDOWN": {
-      "title": "Dane są zawsze szacowane",
-      "pill": "Niedokładne",
-      "body": "Opublikowane dane dla tej strefy przedstawiają tylko całkowitą produkcję. Źródła odnawialne są szacowane przy użyciu rzeczywistych danych pogodowych, a źródła kopalne na podstawie danych historycznych z podziałęm na źródła produkcji."
-    },
     "estimated_generic_method": {
       "title": "Dane są szacowane",
       "pill": "Niedokładne",
       "body": "Opublikowane dane dla tej strefy są niedostępne lub niekompletne. Dane pokazane na mapie są szacowane według naszych najlepszych starań, ale mogą różnić się od rzeczywistych wartości."
-    },
-    "ESTIMATED_CONSTRUCT_BREAKDOWN": {
-      "title": "Dane są zawsze szacowane",
-      "pill": "Nie w czasie rzeczywistym",
-      "body": "Dane dla tej strefy nie są publikowane w czasie rzeczywistym i podają tylko całkowitą produkcję. Zarówno godzinowa produkcja, jak i źródła produkcji są szacowane na podstawie danych historycznych dla każdego źródła produkcji."
-    },
-    "ESTIMATED_CONSTRUCT_ZERO_BREAKDOWN": {
-      "title": "Dane są zawsze szacowane",
-      "pill": "Nie w czasie rzeczywistym",
-      "body": "Dane dla tej strefy nie są publikowane w czasie rzeczywistym i podają tylko całkowitą produkcję. Zarówno godzinowa produkcja, jak i źródła produkcji są szacowane na podstawie danych historycznych dla każdego źródła produkcji."
     },
     "threshold_filtered": {
       "title": "Brakujące dane",

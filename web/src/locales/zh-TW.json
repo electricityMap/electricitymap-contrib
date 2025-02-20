@@ -96,25 +96,10 @@
       "pill": "不完整",
       "body": "該區域發電數據不完整； 缺失值是使用估計模型計算的。"
     },
-    "ESTIMATED_RECONSTRUCT_BREAKDOWN": {
-      "title": "數據始終為估計值",
-      "pill": "不精確",
-      "body": "該區域發布的數據僅提供總產量。可再生能源是使用即時天氣數據估算的，而化石能源是根據每個生產來源的歷史數據扣除的。"
-    },
     "estimated_generic_method": {
       "title": "數據為估計值",
       "pill": "不精確",
       "body": "該區域發布的數據不可用或不完整。地圖上顯示的數據是我們盡力估計的，但可能與實際值有所不同。"
-    },
-    "ESTIMATED_CONSTRUCT_BREAKDOWN": {
-      "title": "數據始終為估計值",
-      "pill": "非即時",
-      "body": "該區域的數據不會即時發布，僅提供總產量。 每小時產量和生產源都是根據每個生產源的歷史數據估算的。"
-    },
-    "ESTIMATED_CONSTRUCT_ZERO_BREAKDOWN": {
-      "title": "數據始終為估計值",
-      "pill": "非即時",
-      "body": "該區域的數據不會即時發布，僅提供總產量。 每小時產量和生產源都是根據每個生產源的歷史數據估算的。"
     },
     "threshold_filtered": {
       "title": "缺失數據",

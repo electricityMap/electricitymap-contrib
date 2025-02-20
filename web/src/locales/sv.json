@@ -149,25 +149,10 @@
       "pill": "Ofullständig",
       "body": "Data om elproduktion för denna zon är ofullständig; saknade värden har beräknats med en uppskattningsmodell."
     },
-    "ESTIMATED_RECONSTRUCT_BREAKDOWN": {
-      "title": "Data är alltid uppskattad",
-      "pill": "Opålitlig",
-      "body": "De publicerade data för denna zon tillhandahåller endast den totala produktionen. Förnybara källor uppskattas med hjälp av aktuella väderdata, medan fossila källor beräknas baserat på historiska data för varje produktionskälla."
-    },
     "estimated_generic_method": {
       "title": "Data är uppskattad",
       "pill": "Opålitlig",
       "body": "De publicerade data för denna zon är otillgängliga eller ofullständiga. Data som visas på kartan är uppskattad enligt bästa förmåga men kan skilja sig från de faktiska värdena."
-    },
-    "ESTIMATED_CONSTRUCT_BREAKDOWN": {
-      "title": "Data är alltid uppskattad",
-      "pill": "Ej realtid",
-      "body": "Data för denna zon publiceras inte i realtid och tillhandahåller endast den totala produktionen. Både timvis produktion och produktionskällor uppskattas baserat på historiska data för varje produktionskälla."
-    },
-    "ESTIMATED_CONSTRUCT_ZERO_BREAKDOWN": {
-      "title": "Data är alltid uppskattad",
-      "pill": "Ej realtid",
-      "body": "Data för denna zon publiceras inte i realtid och tillhandahåller endast den totala produktionen. Både timvis produktion och produktionskällor uppskattas baserat på historiska data för varje produktionskälla."
     },
     "threshold_filtered": {
       "title": "Saknar data",

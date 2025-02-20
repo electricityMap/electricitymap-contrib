@@ -182,39 +182,24 @@
     "link": "Read about our estimation models",
     "outage-details": "See details",
     "ESTIMATED_FORECASTS_HIERARCHY": {
-      "title": "Data is estimated",
-      "pill": "Estimated",
-      "body": "The data for this zone is estimated using a combination of internal and external production forecasts and Time Slicer Averages. This aims to provide a more accurate representation than Time Slicer Average alone but the data may still be subject to inaccuracies. The data will be updated as soon as real-time data becomes available."
+      "title": "Data is preliminary",
+      "pill": "Preliminary",
+      "body": "The data for this hour has not been reported yet and is based on preliminary data."
     },
     "ESTIMATED_TIME_SLICER_AVERAGE": {
       "title": "Data is preliminary",
       "pill": "Preliminary",
-      "body": "The data provider is not reporting data for this hour. The displayed values are estimated based on historical measurements and will be updated once measured data is available. Note that estimated values may not account for real-time weather events."
+      "body": "The data for this hour has not been reported yet and is based on preliminary data."
     },
     "ESTIMATED_MODE_BREAKDOWN": {
       "title": "Data is partially estimated",
-      "pill": "Incomplete",
-      "body": "Electricity generation data for this zone is incomplete; missing values have been calculated using an estimation model."
-    },
-    "ESTIMATED_RECONSTRUCT_BREAKDOWN": {
-      "title": "Data is always estimated",
-      "pill": "Imprecise",
-      "body": "The published data for this zone only provides the total production. Renewable sources are estimated using live weather data, while the fossil sources are deducted based on historical data for each production source."
+      "pill": "Partially estimated",
+      "body": "The reported data for this zone is incomplete; estimation models are used to estimate missing production modes."
     },
     "estimated_generic_method": {
       "title": "Data is estimated",
       "pill": "Imprecise",
       "body": "The published data for this zone is unavailable or incomplete. The data shown on the map is estimated using our best effort, but might differ from the actual values."
-    },
-    "ESTIMATED_CONSTRUCT_BREAKDOWN": {
-      "title": "Data is always estimated",
-      "pill": "Not realtime",
-      "body": "The data for this zone is not published in realtime and only provides the total production. Both hourly production and production sources are estimated based on historical data for each production source."
-    },
-    "ESTIMATED_CONSTRUCT_ZERO_BREAKDOWN": {
-      "title": "Data is always estimated",
-      "pill": "Not realtime",
-      "body": "The data for this zone is not published in realtime and only provides the total production. Both hourly production and production sources are estimated based on historical data for each production source."
     },
     "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL": {
       "title": "Data is always estimated",

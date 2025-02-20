@@ -51,7 +51,7 @@ describe('EstimationCard with known estimation method', () => {
         <QueryClientProvider client={queryClient}>
           <EstimationCard
             cardType="estimated"
-            estimationMethod={EstimationMethods.CONSTRUCT_BREAKDOWN}
+            estimationMethod={EstimationMethods.TSA}
             zoneMessage={undefined}
           />
         </QueryClientProvider>
@@ -60,10 +60,10 @@ describe('EstimationCard with known estimation method', () => {
   });
 
   it('Estimation card contains expected information', () => {
-    cy.get('[data-testid=title]').contains('Data is always estimated');
+    cy.get('[data-testid=title]').contains('Data is preliminary');
     cy.get('[data-testid="collapse-button"]').click();
     cy.get('[data-testid="body-text"]').contains(
-      'The data for this zone is not published in realtime and only provides the total production. Both hourly production and production sources are estimated based on historical data for each production source.'
+      'The data for this hour has not been reported yet and is based on preliminary data.'
     );
   });
 

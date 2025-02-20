@@ -172,25 +172,10 @@
       "pill": "Ukomplet",
       "body": "Produktions data for dette område er ufuldkommen; manglende værdier er blevet udregnet vha. en estimations model."
     },
-    "ESTIMATED_RECONSTRUCT_BREAKDOWN": {
-      "title": "Data er altid estimeret",
-      "pill": "Upræcis",
-      "body": "Den publicerede data for dette område indholder kun den samlede produktion. Vedvarende energikilder er estimeret vha. vejrdata, mens fossile energikilder er baseret på historisk data for hver energikilde."
-    },
     "estimated_generic_method": {
       "title": "Data er estimeret",
       "pill": "Upræcis",
       "body": "Den publiserede data for dette område er utilgængelig eller ufuldkommen. Data vist på kortet er estimeret ud fra vores bedste kunnen, men den er måske forskellig fra de reelle værdier."
-    },
-    "ESTIMATED_CONSTRUCT_BREAKDOWN": {
-      "title": "Data er altid estimeret",
-      "pill": "Ikke realtid",
-      "body": "Data for dette område er ikke publiceret i realtid og indeholder kun den samlede produktion. Både timevis produktion og produktion af de enkelte energikilder er estimeret baseret på historisk data for hver energikilde."
-    },
-    "ESTIMATED_CONSTRUCT_ZERO_BREAKDOWN": {
-      "title": "Data er altid estimeret",
-      "pill": "Ikke realtid",
-      "body": "Data for dette område er ikke publiceret i realtid og indeholder kun den samlede produktion. Både timevis produktion og produktion af de enkelte energikilder er estimeret baseret på historisk data for hver energikilde."
     },
     "threshold_filtered": {
       "title": "Manglende data",
