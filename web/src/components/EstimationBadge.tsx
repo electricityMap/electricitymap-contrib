@@ -4,7 +4,11 @@ import { memo } from 'react';
 
 function EstimationBadge({ text, Icon }: { text?: string; Icon?: LucideIcon }) {
   return text && Icon ? (
-    <Badge type={'warning'} icon={<Icon size={12} />} pillText={text} />
+    text === 'Preliminary' ? (
+      <Badge icon={<Icon size={12} />} pillText={text} />
+    ) : (
+      <Badge type={'warning'} icon={<Icon size={12} />} pillText={text} />
+    )
   ) : null;
 }
 
