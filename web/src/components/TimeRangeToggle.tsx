@@ -2,21 +2,14 @@ import {
   Item as ToggleGroupItem,
   Root as ToggleGroupRoot,
 } from '@radix-ui/react-toggle-group';
-import { useFeatureFlag } from 'features/feature-flags/api';
 import { TFunction } from 'i18next';
 import { memo, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { TimeRange } from 'utils/constants';
 
-const createOption = (
-  time: TimeRange,
-  t: TFunction,
-  historicalLinkingEnabled: boolean
-) => ({
+const createOption = (time: TimeRange, t: TFunction) => ({
   value: time,
-  label: t(
-    `time-controller.${historicalLinkingEnabled ? 'historical-linking.' : ''}${time}`
-  ),
+  label: t(`time-controller.${time}`),
   dataTestId: `time-controller-${time}`,
 });
 
@@ -27,14 +20,10 @@ export interface TimeRangeToggleProps {
 
 function TimeRangeToggle({ timeRange, onToggleGroupClick }: TimeRangeToggleProps) {
   const { t } = useTranslation();
-  const historicalLinkingEnabled = useFeatureFlag('historical-linking');
 
   const options = useMemo(
-    () =>
-      Object.values(TimeRange).map((value) =>
-        createOption(value, t, historicalLinkingEnabled)
-      ),
-    [historicalLinkingEnabled, t]
+    () => Object.values(TimeRange).map((value) => createOption(value, t)),
+    [t]
   );
 
   return (
