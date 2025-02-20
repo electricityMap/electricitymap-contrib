@@ -1,6 +1,24 @@
+capacity:
+  gas:
+    - datetime: '2024-12-20'
+      source: manxutilities.im
+      value: 84.0
+  hydro:
+    - datetime: '2024-12-20'
+      source: manxutilities.im
+      value: 1.2
+  oil:
+    - datetime: '2024-12-20'
+      source: manxutilities.im
+      value: 40.0
+  unknown:
+    - datetime: '2024-12-20'
+      source: suez.co.im
+      value: 5.5
 contributors:
   - VIKTORVAV99
   - AJDelusion
+  - CHirch
 country: IM
 fallbackZoneMixes:
   powerOriginRatios:
@@ -10,5 +28,12 @@ fallbackZoneMixes:
         gas: 0.988
         hydro: 0.007
         oil: 0.005
+    - _source: https://www.manxutilities.im/media/3096/manx-utilities-annual-report-and-accounts-31-march-2024.pdf
+      datetime: '2024-01-01'
+      value:
+        gas: 0.950
+        hydro: 0.006
+        oil: 0.003
+        unknown: 0.041
 region: Europe
 timezone: Europe/Isle_of_Man
