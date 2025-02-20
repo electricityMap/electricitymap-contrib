@@ -8,7 +8,7 @@ interface StoryStateZoneData {
   ci: number;
   fr: number;
   rr: number;
-  e?: boolean | null;
+  e?: string | number | null;
   o?: boolean | null;
 }
 
@@ -49,7 +49,7 @@ export const MeasuredData: Story = {
     fr: 0.1664,
     rr: 0.683,
     o: false,
-    e: false,
+    e: null,
   },
 };
 
@@ -60,7 +60,7 @@ export const DisplayTitle: Story = {
     fr: 0.1664,
     rr: 0.683,
     o: false,
-    e: false,
+    e: null,
   },
 };
 export const TruncatedTitle: Story = {
@@ -70,7 +70,7 @@ export const TruncatedTitle: Story = {
     fr: 0.1664,
     rr: 0.683,
     o: false,
-    e: false,
+    e: null,
   },
 };
 export const TruncatedAndEstimated: Story = {
@@ -80,6 +80,6 @@ export const TruncatedAndEstimated: Story = {
     fr: 0.1664,
     rr: 0.683,
     o: false,
-    e: true,
+    e: 'ESTIMATED_TIME_SLICER_AVERAGE',
   },
 };

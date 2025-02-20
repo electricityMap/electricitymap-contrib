@@ -8,10 +8,11 @@ import { getSafeTooltipPosition } from 'components/tooltips/utilities';
 import ZoneGaugesWithCO2Square from 'components/ZoneGauges';
 import { ZoneName } from 'components/ZoneName';
 import { useAtomValue } from 'jotai';
-import { TrendingUpDown } from 'lucide-react';
+import { CircleDashed, TrendingUpDown } from 'lucide-react';
 import { memo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { StateZoneData } from 'types';
+import { EstimationMethods, isTSAModel } from 'utils/constants';
 import { round } from 'utils/helpers';
 import { selectedDatetimeStringAtom } from 'utils/state/atoms';
 
@@ -64,7 +65,7 @@ export const DataValidityBadge = memo(function DataValidityBadge({
   hasZoneData,
 }: {
   hasOutage: boolean;
-  estimated?: number | boolean | null;
+  estimated?: number | string | null;
   hasZoneData: boolean;
 }) {
   const { t } = useTranslation();
@@ -75,10 +76,18 @@ export const DataValidityBadge = memo(function DataValidityBadge({
   if (hasOutage) {
     return <OutageBadge />;
   }
-  if (estimated === true) {
+  if (typeof estimated === 'string') {
+    if (isTSAModel(estimated as EstimationMethods)) {
+      return (
+        <EstimationBadge
+          text={t('estimation-card.ESTIMATED_TIME_SLICER_AVERAGE.pill')}
+          Icon={CircleDashed}
+        />
+      );
+    }
     return (
       <EstimationBadge
-        text={t('estimation-badge.fully-estimated')}
+        text={t(`estimation-card.${estimated}.pill`)}
         Icon={TrendingUpDown}
       />
     );
