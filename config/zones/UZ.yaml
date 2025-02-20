@@ -3,6 +3,27 @@ bounding_box:
     - 36.68830730933749
   - - 73.61853118531187
     - 46.06232808111943
+capacity:
+  solar:
+  - datetime: '2024-08-30'
+    source: gov.uz
+    comment: 'The Ministry of Energy of the Republic of Uzbekistan'
+    value: 2300
+  wind: 
+  - datetime: '2024-08-30'
+    source: gov.uz
+    comment: 'The Ministry of Energy of the Republic of Uzbekistan'
+    value: 500
+  hydro:
+  - datetime: '2024-08-29'
+    source: stat.uz
+    comment: 'Statistics Agency under the President of the Republic of Uzbekistan'
+    value: 2381
+  gas:
+  - datetime: '2024-08-29'
+    source: stat.uz
+    comment: 'Statistics Agency under the President of the Republic of Uzbekistan'
+    value: 13874
 country: UZ
 region: Asia
 timezone: Asia/Samarkand
