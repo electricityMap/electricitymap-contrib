@@ -1,0 +1,6 @@
+lonlat:
+  - 107.4573
+  - 42.4151
+parsers:
+  exchange: MN.fetch_exchange
+rotation: 0
