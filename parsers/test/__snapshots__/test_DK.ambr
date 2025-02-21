@@ -1,0 +1,4391 @@
+# serializer version: 1
+# name: test_fetch_exchange
+  list([
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 15, 5, tzinfo=datetime.timezone.utc),
+      'netFlow': -677.289995,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 15, 10, tzinfo=datetime.timezone.utc),
+      'netFlow': -649.299971,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 15, 15, tzinfo=datetime.timezone.utc),
+      'netFlow': -650.440005,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 15, 20, tzinfo=datetime.timezone.utc),
+      'netFlow': -672.040012,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 15, 25, tzinfo=datetime.timezone.utc),
+      'netFlow': -650.159983,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 15, 30, tzinfo=datetime.timezone.utc),
+      'netFlow': -662.990015,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 15, 35, tzinfo=datetime.timezone.utc),
+      'netFlow': -653.099977,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 15, 40, tzinfo=datetime.timezone.utc),
+      'netFlow': -672.479979,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 15, 45, tzinfo=datetime.timezone.utc),
+      'netFlow': -704.459978,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 15, 50, tzinfo=datetime.timezone.utc),
+      'netFlow': -671.180012,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 15, 55, tzinfo=datetime.timezone.utc),
+      'netFlow': -685.209998,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 16, 0, tzinfo=datetime.timezone.utc),
+      'netFlow': -704.250016,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 16, 5, tzinfo=datetime.timezone.utc),
+      'netFlow': -767.880021,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 16, 10, tzinfo=datetime.timezone.utc),
+      'netFlow': -740.150026,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 16, 15, tzinfo=datetime.timezone.utc),
+      'netFlow': -697.89003,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 16, 20, tzinfo=datetime.timezone.utc),
+      'netFlow': -650.100021,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 16, 25, tzinfo=datetime.timezone.utc),
+      'netFlow': -659.410028,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 16, 30, tzinfo=datetime.timezone.utc),
+      'netFlow': -626.50001,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 16, 35, tzinfo=datetime.timezone.utc),
+      'netFlow': -593.139973,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 16, 40, tzinfo=datetime.timezone.utc),
+      'netFlow': -571.509993,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 16, 45, tzinfo=datetime.timezone.utc),
+      'netFlow': -575.62998,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 16, 50, tzinfo=datetime.timezone.utc),
+      'netFlow': -563.109976,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 16, 55, tzinfo=datetime.timezone.utc),
+      'netFlow': -551.540005,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 17, 0, tzinfo=datetime.timezone.utc),
+      'netFlow': -621.400009,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 17, 5, tzinfo=datetime.timezone.utc),
+      'netFlow': -682.84,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 17, 10, tzinfo=datetime.timezone.utc),
+      'netFlow': -611.620017,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 17, 15, tzinfo=datetime.timezone.utc),
+      'netFlow': -590.549988,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 17, 20, tzinfo=datetime.timezone.utc),
+      'netFlow': -563.680015,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 17, 25, tzinfo=datetime.timezone.utc),
+      'netFlow': -599.160005,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 17, 30, tzinfo=datetime.timezone.utc),
+      'netFlow': -573.339971,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 17, 35, tzinfo=datetime.timezone.utc),
+      'netFlow': -576.390002,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 17, 40, tzinfo=datetime.timezone.utc),
+      'netFlow': -575.73002,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 17, 45, tzinfo=datetime.timezone.utc),
+      'netFlow': -545.21999,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 17, 50, tzinfo=datetime.timezone.utc),
+      'netFlow': -498.720004,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 17, 55, tzinfo=datetime.timezone.utc),
+      'netFlow': -448.72,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 18, 0, tzinfo=datetime.timezone.utc),
+      'netFlow': -508.19999,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 18, 5, tzinfo=datetime.timezone.utc),
+      'netFlow': -568.500002,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 18, 10, tzinfo=datetime.timezone.utc),
+      'netFlow': -538.15,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 18, 15, tzinfo=datetime.timezone.utc),
+      'netFlow': -557.689998,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 18, 20, tzinfo=datetime.timezone.utc),
+      'netFlow': -580.780002,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 18, 25, tzinfo=datetime.timezone.utc),
+      'netFlow': -564.129971,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 18, 30, tzinfo=datetime.timezone.utc),
+      'netFlow': -552.48002,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 18, 35, tzinfo=datetime.timezone.utc),
+      'netFlow': -561.630027,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 18, 40, tzinfo=datetime.timezone.utc),
+      'netFlow': -544.519998,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 18, 45, tzinfo=datetime.timezone.utc),
+      'netFlow': -535.73002,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 18, 50, tzinfo=datetime.timezone.utc),
+      'netFlow': -506.319995,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 18, 55, tzinfo=datetime.timezone.utc),
+      'netFlow': -489.599994,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 19, 0, tzinfo=datetime.timezone.utc),
+      'netFlow': -546.689983,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 19, 5, tzinfo=datetime.timezone.utc),
+      'netFlow': -569.500022,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+    dict({
+      'datetime': datetime.datetime(2025, 2, 21, 19, 10, tzinfo=datetime.timezone.utc),
+      'netFlow': -551.719998,
+      'sortedZoneKeys': 'DK-DK2->SE-SE4',
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.measured: 'measured'>,
+    }),
+  ])
+# ---
+# name: test_fetch_forecast
+  list([
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 20, 23, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 10.38,
+        'wind': 3521.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 20, 23, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 10.72,
+        'wind': 3587.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 20, 23, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 10.49,
+        'wind': 3549.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 20, 23, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 10.04,
+        'wind': 3531.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 20, 23, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 9.59,
+        'wind': 3500.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 20, 23, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 8.89,
+        'wind': 3477.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 20, 23, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.92,
+        'wind': 3440.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 20, 23, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.16,
+        'wind': 3390.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 20, 23, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6.76,
+        'wind': 3351.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 20, 23, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6.52,
+        'wind': 3330.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 20, 23, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6.82,
+        'wind': 3307.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 20, 23, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6.76,
+        'wind': 3287.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 0, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6.76,
+        'wind': 3274.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 0, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6.91,
+        'wind': 3242.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 0, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.18,
+        'wind': 3221.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 0, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.69,
+        'wind': 3178.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 0, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.68,
+        'wind': 3129.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 0, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.75,
+        'wind': 3108.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 0, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.79,
+        'wind': 3074.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 0, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.54,
+        'wind': 3080.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 0, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.21,
+        'wind': 3011.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 0, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6.95,
+        'wind': 2970.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 0, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.09,
+        'wind': 2934.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 0, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.07,
+        'wind': 2911.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 1, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.42,
+        'wind': 2878.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 1, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.23,
+        'wind': 2867.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 1, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.18,
+        'wind': 2846.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 1, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6.87,
+        'wind': 2816.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 1, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6.84,
+        'wind': 2769.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 1, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6.7,
+        'wind': 2718.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 1, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6.22,
+        'wind': 2633.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 1, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 5.02,
+        'wind': 2583.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 1, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 4.36,
+        'wind': 2562.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 1, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 3.97,
+        'wind': 2512.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 1, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 4.2,
+        'wind': 2471.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 1, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 4.09,
+        'wind': 2421.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 2, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 3.61,
+        'wind': 2387.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 2, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 3.32,
+        'wind': 2356.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 2, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.95,
+        'wind': 2282.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 2, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 3.0,
+        'wind': 2211.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 2, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 3.24,
+        'wind': 2156.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 2, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 3.49,
+        'wind': 2125.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 2, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 3.68,
+        'wind': 2070.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 2, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 3.63,
+        'wind': 2013.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 2, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 3.77,
+        'wind': 1945.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 2, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 3.62,
+        'wind': 1890.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 2, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 3.35,
+        'wind': 1850.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 2, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.97,
+        'wind': 1790.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 3, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.76,
+        'wind': 1726.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 3, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.59,
+        'wind': 1686.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 3, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.44,
+        'wind': 1655.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 3, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.31,
+        'wind': 1623.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 3, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.28,
+        'wind': 1573.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 3, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.25,
+        'wind': 1550.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 3, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.17,
+        'wind': 1542.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 3, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.16,
+        'wind': 1531.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 3, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.19,
+        'wind': 1535.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 3, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.4,
+        'wind': 1581.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 3, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.28,
+        'wind': 1588.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 3, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.13,
+        'wind': 1583.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 4, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.0,
+        'wind': 1561.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 4, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 1.89,
+        'wind': 1542.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 4, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 1.89,
+        'wind': 1541.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 4, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 1.66,
+        'wind': 1503.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 4, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 1.62,
+        'wind': 1508.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 4, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 1.55,
+        'wind': 1503.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 4, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 1.56,
+        'wind': 1499.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 4, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 1.51,
+        'wind': 1490.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 4, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 1.45,
+        'wind': 1468.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 4, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 1.49,
+        'wind': 1471.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 4, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 1.58,
+        'wind': 1511.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 4, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 1.8,
+        'wind': 1523.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 5, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 1.92,
+        'wind': 1521.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 5, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.11,
+        'wind': 1517.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 5, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.25,
+        'wind': 1533.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 5, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.41,
+        'wind': 1573.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 5, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.56,
+        'wind': 1568.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 5, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.69,
+        'wind': 1552.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 5, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.72,
+        'wind': 1537.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 5, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.51,
+        'wind': 1519.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 5, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.16,
+        'wind': 1508.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 5, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.03,
+        'wind': 1476.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 5, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.07,
+        'wind': 1476.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 5, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.04,
+        'wind': 1455.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 6, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.04,
+        'wind': 1452.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 6, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.11,
+        'wind': 1447.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 6, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.32,
+        'wind': 1450.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 6, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.45,
+        'wind': 1442.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 6, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.6,
+        'wind': 1445.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 6, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.76,
+        'wind': 1460.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 6, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 2.92,
+        'wind': 1464.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 6, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 3.09,
+        'wind': 1487.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 6, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 3.56,
+        'wind': 1502.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 6, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 4.23,
+        'wind': 1519.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 6, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 5.23,
+        'wind': 1541.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 6, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6.35,
+        'wind': 1561.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 7, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 8.18,
+        'wind': 1572.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 7, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 11.07,
+        'wind': 1585.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 7, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 16.459999,
+        'wind': 1614.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 7, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 23.280001,
+        'wind': 1650.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 7, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 30.639999,
+        'wind': 1656.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 7, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 38.09,
+        'wind': 1669.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 7, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 44.419998,
+        'wind': 1650.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 7, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 49.470001,
+        'wind': 1649.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 7, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 54.450001,
+        'wind': 1669.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 7, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 59.68,
+        'wind': 1683.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 7, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 64.089996,
+        'wind': 1725.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 7, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 68.510002,
+        'wind': 1745.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 8, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 72.260002,
+        'wind': 1761.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 8, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 76.120003,
+        'wind': 1762.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 8, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 80.150002,
+        'wind': 1770.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 8, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 83.300003,
+        'wind': 1816.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 8, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 87.389999,
+        'wind': 1840.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 8, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 92.010002,
+        'wind': 1834.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 8, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 96.860001,
+        'wind': 1844.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 8, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 101.349998,
+        'wind': 1810.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 8, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 106.68,
+        'wind': 1791.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 8, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 112.0,
+        'wind': 1763.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 8, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 116.309998,
+        'wind': 1766.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 8, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 121.470001,
+        'wind': 1765.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 9, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 129.289993,
+        'wind': 1809.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 9, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 140.240005,
+        'wind': 1834.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 9, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 149.960007,
+        'wind': 1833.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 9, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 156.470001,
+        'wind': 1843.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 9, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 160.449997,
+        'wind': 1863.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 9, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 161.320007,
+        'wind': 1868.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 9, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 161.869995,
+        'wind': 1877.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 9, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 162.529999,
+        'wind': 1882.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 9, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 167.729996,
+        'wind': 1882.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 9, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 177.529999,
+        'wind': 1900.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 9, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 186.639999,
+        'wind': 1911.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 9, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 193.979996,
+        'wind': 1935.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 10, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 198.570007,
+        'wind': 1978.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 10, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 204.169998,
+        'wind': 1952.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 10, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 205.080002,
+        'wind': 1963.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 10, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 206.179993,
+        'wind': 1972.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 10, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 206.839996,
+        'wind': 1960.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 10, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 211.529999,
+        'wind': 1983.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 10, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 213.25,
+        'wind': 1995.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 10, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 210.580002,
+        'wind': 1991.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 10, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 207.009995,
+        'wind': 2007.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 10, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 208.5,
+        'wind': 2025.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 10, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 213.839996,
+        'wind': 2077.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 10, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 218.820007,
+        'wind': 2095.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 11, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 216.960007,
+        'wind': 2091.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 11, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 212.380005,
+        'wind': 2082.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 11, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 205.990005,
+        'wind': 2102.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 11, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 200.100006,
+        'wind': 2128.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 11, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 193.330002,
+        'wind': 2142.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 11, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 190.350006,
+        'wind': 2155.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 11, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 194.279999,
+        'wind': 2176.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 11, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 199.289993,
+        'wind': 2191.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 11, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 202.339996,
+        'wind': 2201.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 11, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 201.350006,
+        'wind': 2217.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 11, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 199.25,
+        'wind': 2218.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 11, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 198.190002,
+        'wind': 2227.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 12, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 194.949997,
+        'wind': 2219.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 12, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 191.300003,
+        'wind': 2224.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 12, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 188.149994,
+        'wind': 2237.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 12, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 184.990005,
+        'wind': 2234.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 12, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 184.259995,
+        'wind': 2215.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 12, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 181.649994,
+        'wind': 2210.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 12, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 181.940002,
+        'wind': 2204.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 12, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 179.940002,
+        'wind': 2221.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 12, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 177.380005,
+        'wind': 2214.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 12, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 175.679993,
+        'wind': 2171.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 12, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 173.820007,
+        'wind': 2164.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 12, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 170.600006,
+        'wind': 2172.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 13, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 165.460007,
+        'wind': 2184.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 13, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 161.009995,
+        'wind': 2200.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 13, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 159.380005,
+        'wind': 2200.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 13, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 156.919998,
+        'wind': 2210.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 13, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 156.300003,
+        'wind': 2216.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 13, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 155.809998,
+        'wind': 2229.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 13, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 154.309998,
+        'wind': 2246.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 13, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 154.389999,
+        'wind': 2248.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 13, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 153.740005,
+        'wind': 2247.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 13, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 153.25,
+        'wind': 2263.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 13, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 153.050003,
+        'wind': 2273.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 13, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 153.960007,
+        'wind': 2278.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 14, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 157.75,
+        'wind': 2268.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 14, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 157.699997,
+        'wind': 2286.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 14, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 157.570007,
+        'wind': 2271.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 14, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 152.479996,
+        'wind': 2275.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 14, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 151.649994,
+        'wind': 2297.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 14, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 151.039993,
+        'wind': 2313.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 14, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 154.559998,
+        'wind': 2323.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 14, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 154.820007,
+        'wind': 2349.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 14, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 151.899994,
+        'wind': 2365.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 14, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 146.199997,
+        'wind': 2384.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 14, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 139.330002,
+        'wind': 2390.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 14, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 130.729996,
+        'wind': 2443.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 15, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 121.330002,
+        'wind': 2548.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 15, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 112.099998,
+        'wind': 2585.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 15, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 101.470001,
+        'wind': 2610.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 15, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 90.510002,
+        'wind': 2631.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 15, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 80.760002,
+        'wind': 2643.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 15, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 73.980003,
+        'wind': 2624.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 15, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 67.760002,
+        'wind': 2623.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 15, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 60.619999,
+        'wind': 2617.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 15, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 51.439999,
+        'wind': 2594.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 15, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 42.189999,
+        'wind': 2583.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 15, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 34.459999,
+        'wind': 2606.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 15, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 27.639999,
+        'wind': 2634.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 16, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 22.57,
+        'wind': 2643.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 16, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 19.24,
+        'wind': 2673.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 16, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 18.75,
+        'wind': 2699.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 16, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 18.1,
+        'wind': 2715.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 16, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 18.440001,
+        'wind': 2718.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 16, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 16.719999,
+        'wind': 2742.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 16, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 14.26,
+        'wind': 2788.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 16, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 11.67,
+        'wind': 2821.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 16, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 9.72,
+        'wind': 2821.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 16, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 8.07,
+        'wind': 2843.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 16, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.05,
+        'wind': 2896.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 16, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6.33,
+        'wind': 2931.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 17, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6.17,
+        'wind': 2931.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 17, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 5.79,
+        'wind': 2949.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 17, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 5.36,
+        'wind': 2955.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 17, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 5.09,
+        'wind': 2961.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 17, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 4.92,
+        'wind': 2964.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 17, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 5.65,
+        'wind': 2959.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 17, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6.4,
+        'wind': 2960.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 17, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.12,
+        'wind': 2971.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 17, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.07,
+        'wind': 2978.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 17, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.03,
+        'wind': 2976.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 17, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6.92,
+        'wind': 3006.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 17, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6.82,
+        'wind': 3047.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 18, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6.75,
+        'wind': 3123.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 18, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.19,
+        'wind': 3157.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 18, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.33,
+        'wind': 3183.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 18, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 8.04,
+        'wind': 3190.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 18, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 8.04,
+        'wind': 3187.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 18, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 8.57,
+        'wind': 3208.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 18, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 8.24,
+        'wind': 3237.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 18, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.8,
+        'wind': 3239.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 18, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.96,
+        'wind': 3243.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 18, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.58,
+        'wind': 3255.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 18, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.78,
+        'wind': 3271.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 18, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.15,
+        'wind': 3290.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 19, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.23,
+        'wind': 3288.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 19, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.15,
+        'wind': 3303.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 19, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6.87,
+        'wind': 3321.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 19, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6.79,
+        'wind': 3328.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 19, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.09,
+        'wind': 3318.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 19, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.23,
+        'wind': 3314.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 19, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.68,
+        'wind': 3295.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 19, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.81,
+        'wind': 3306.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 19, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 8.57,
+        'wind': 3313.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 19, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 8.65,
+        'wind': 3335.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 19, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 8.85,
+        'wind': 3349.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 19, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 9.03,
+        'wind': 3359.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 20, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 9.44,
+        'wind': 3370.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 20, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 9.64,
+        'wind': 3379.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 20, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 9.66,
+        'wind': 3387.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 20, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 9.84,
+        'wind': 3399.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 20, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 9.8,
+        'wind': 3405.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 20, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 9.82,
+        'wind': 3406.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 20, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 9.57,
+        'wind': 3410.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 20, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 9.6,
+        'wind': 3437.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 20, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 9.8,
+        'wind': 3441.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 20, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 9.99,
+        'wind': 3441.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 20, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 10.17,
+        'wind': 3437.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 20, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 9.99,
+        'wind': 3423.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 21, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 10.09,
+        'wind': 3402.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 21, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 9.93,
+        'wind': 3401.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 21, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 10.08,
+        'wind': 3393.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 21, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 9.8,
+        'wind': 3393.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 21, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 9.9,
+        'wind': 3412.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 21, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 9.97,
+        'wind': 3415.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 21, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 10.22,
+        'wind': 3406.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 21, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 10.04,
+        'wind': 3402.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 21, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 10.02,
+        'wind': 3403.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 21, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 10.01,
+        'wind': 3401.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 21, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 10.21,
+        'wind': 3391.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 21, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 9.75,
+        'wind': 3378.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 22, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 9.29,
+        'wind': 3364.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 22, 5, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 8.82,
+        'wind': 3352.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 22, 10, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 8.36,
+        'wind': 3341.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 22, 15, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.89,
+        'wind': 3329.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 22, 20, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7.43,
+        'wind': 3320.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 22, 25, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6.96,
+        'wind': 3312.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 22, 30, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6.5,
+        'wind': 3304.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 22, 35, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6.04,
+        'wind': 3290.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 22, 40, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 5.57,
+        'wind': 3276.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 22, 45, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 5.11,
+        'wind': 3269.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 22, 50, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 4.64,
+        'wind': 3253.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 21, 22, 55, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 4.18,
+        'wind': 3238.0,
+      }),
+      'source': 'energidataservice.dk',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'DK-DK1',
+    }),
+  ])
+# ---

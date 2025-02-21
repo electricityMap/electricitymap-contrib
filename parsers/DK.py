@@ -3,7 +3,11 @@ from logging import Logger, getLogger
 
 from requests import Response, Session
 
-from electricitymap.contrib.lib.models.event_lists import ExchangeList
+from electricitymap.contrib.lib.models.event_lists import (
+    ExchangeList,
+    ProductionBreakdownList,
+)
+from electricitymap.contrib.lib.models.events import EventSourceType, ProductionMix
 from electricitymap.contrib.lib.types import ZoneKey
 from parsers.lib.config import refetch_frequency
 from parsers.lib.exceptions import ParserException
@@ -19,12 +23,29 @@ EXCHANGE_MAPPING = {
     "DK-BHM->SE-SE4": {"id": "BornholmSE4", "direction": -1, "priceArea": "DK2"},
 }
 
+FORCAST_PARSE_MAPPING = {
+    "Offshore Wind": "wind",
+    "Onshore Wind": "wind",
+    "Solar": "solar",
+}
+
+FORCAST_AREA_MAPPING = {
+    "DK-DK1": "DK1",
+    "DK-DK2": "DK2",
+}
+
+EXCHANGE_URL = "https://api.energidataservice.dk/dataset/ElectricityProdex5MinRealtime"
+FORECAST_URL = "https://api.energidataservice.dk/dataset/Forecasts_5Min"
+
+SOURCE = "energidataservice.dk"
+
 
 def fetch_data(
-    sorted_keys: ZoneKey,
+    zone_key: ZoneKey,
     session: Session | None,
     target_datetime: datetime | None,
     logger: Logger,
+    is_forecast: bool = False,
 ) -> dict:
     """
     Helper function to fetch data from the API.
@@ -36,7 +57,11 @@ def fetch_data(
         # datetimes.
         target_datetime = target_datetime.replace(tzinfo=None)
 
-    price_area = EXCHANGE_MAPPING[sorted_keys]["priceArea"]
+    price_area = (
+        FORCAST_AREA_MAPPING[zone_key]
+        if is_forecast
+        else EXCHANGE_MAPPING[zone_key]["priceArea"]
+    )
 
     params = {
         "limit": 500,
@@ -49,7 +74,7 @@ def fetch_data(
         else None,
     }
     response: Response = ses.get(
-        "https://api.energidataservice.dk/dataset/ElectricityProdex5MinRealtime",
+        FORECAST_URL if is_forecast else EXCHANGE_URL,
         params=params,
     )
     if response.ok:
@@ -57,7 +82,7 @@ def fetch_data(
         if data["total"] == 0:
             raise ParserException(
                 parser="DK.py",
-                zone_key=sorted_keys,
+                zone_key=zone_key,
                 message=f"No exchange data was returned for {target_datetime.date() or datetime.now().date()}",
             )
 
@@ -66,7 +91,7 @@ def fetch_data(
     else:
         raise ParserException(
             parser="DK.py",
-            zone_key=sorted_keys,
+            zone_key=zone_key,
             message=f"No exchange data was returned for {target_datetime.date() or datetime.now().date()}",
         )
 
@@ -122,11 +147,50 @@ def fetch_exchange(
                     tzinfo=timezone.utc
                 ),
                 netFlow=flow(sorted_keys, datapoint),
-                source="energidataservice.dk",
+                source=SOURCE,
             )
         return all_exchange_data.to_list()
+
+
+@refetch_frequency(timedelta(days=1))
+def fetch_wind_solar_forecasts(
+    zone_key: ZoneKey,
+    session: Session | None = None,
+    target_datetime: datetime | None = None,
+    logger: Logger = getLogger(__name__),
+) -> list:
+    data = fetch_data(zone_key, session, target_datetime, logger, True)
+
+    # Production mixs by datetime
+    productionMixs = {}
+    for datapoint in data["records"]:
+        date_time = datetime.fromisoformat(datapoint["Minutes5UTC"]).replace(
+            tzinfo=timezone.utc
+        )
+        if date_time not in productionMixs:
+            productionMixs[date_time] = ProductionMix()
+
+        productionMixs[date_time].add_value(
+            FORCAST_PARSE_MAPPING[datapoint["ForecastType"]],
+            datapoint["ForecastCurrent"],
+        )
+
+    forecast = ProductionBreakdownList(logger=logger)
+    for date_time, productionMix in productionMixs.items():
+        forecast.append(
+            zoneKey=zone_key,
+            production=productionMix,
+            datetime=date_time,
+            source=SOURCE,
+            sourceType=EventSourceType.forecasted,
+        )
+
+    return forecast.to_list()
 
 
 if __name__ == "__main__":
     print("fetch_exchange(DK-DK1, DE) ->")
     print(fetch_exchange("DK-DK2", "SE-SE4"))
+
+    print("fetch_forecasts(DK-DK1) ->")
+    print(fetch_wind_solar_forecasts(ZoneKey("DK-DK1")))

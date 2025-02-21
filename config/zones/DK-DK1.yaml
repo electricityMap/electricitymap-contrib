@@ -493,7 +493,7 @@ parsers:
   price: NORDPOOL.fetch_price
   production: ENTSOE.fetch_production
   productionCapacity: ENTSOE.fetch_production_capacity
-  productionPerModeForecast: ENTSOE.fetch_wind_solar_forecasts
+  productionPerModeForecast: DK.fetch_wind_solar_forecasts
   productionPerUnit: ENTSOE.fetch_production_per_units
 region: Europe
 sources:
