@@ -1,7 +1,6 @@
 import useGetState from 'api/getState';
 import TimeRangeToggle from 'components/TimeRangeToggle';
 import TimeSlider from 'components/TimeSlider';
-import { useFeatureFlag } from 'features/feature-flags/api';
 import { useAtom, useAtomValue, useSetAtom } from 'jotai';
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useParams } from 'react-router-dom';
@@ -19,7 +18,6 @@ import {
 } from 'utils/state/atoms';
 import { useIsBiggerThanMobile } from 'utils/styling';
 
-import HistoricalTimeHeader from './HistoricalTimeHeader';
 import TimeAxis from './TimeAxis';
 import TimeHeader from './TimeHeader';
 
@@ -34,7 +32,6 @@ export default function TimeController({ className }: { className?: string }) {
   const setEndDatetime = useSetAtom(endDatetimeAtom);
   const setStartDatetime = useSetAtom(startDatetimeAtom);
   const { urlDatetime } = useParams();
-  const historicalLinkingEnabled = useFeatureFlag('historical-linking');
   const zoneTimezone = getZoneTimezone(zoneId);
   const navigate = useNavigateWithParameters();
   const setIsRedirectedToLatestDatetime = useSetAtom(isRedirectedToLatestDatetimeAtom);
@@ -117,8 +114,7 @@ export default function TimeController({ className }: { className?: string }) {
   );
   return (
     <div className={twMerge(className, 'flex flex-col gap-3')}>
-      {isBiggerThanMobile && !historicalLinkingEnabled && <TimeHeader />}
-      {isBiggerThanMobile && historicalLinkingEnabled && <HistoricalTimeHeader />}
+      {isBiggerThanMobile && <TimeHeader />}
       <div className="flex items-center gap-2">
         <TimeRangeToggle
           timeRange={selectedTimeRange || TimeRange.H72}
