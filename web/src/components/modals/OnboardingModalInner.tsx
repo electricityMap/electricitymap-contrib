@@ -62,62 +62,66 @@ function Modal({
         role="presentation"
       />
       <div
-        className="px-auto absolute top-auto z-50 mx-auto flex w-full items-center justify-center
-       self-center sm:top-20 sm:min-w-[500px]"
+        className="px-auto fixed top-1/2 z-50 w-full -translate-y-1/2 sm:min-w-[500px]"
         data-testid={modalName}
       >
-        <div className="z-10 -mr-4 flex w-full max-w-[35px] flex-col items-start pl-1 sm:mr-0 sm:max-w-[60px] sm:items-end sm:px-2">
-          {!isOnFirstView() && (
-            <Button
-              icon={<ChevronLeft />}
-              onClick={handleBack}
-              type="secondary"
-              dataTestId="back-button"
-            />
-          )}
-        </div>
-        <div className="relative flex h-[450px] w-auto max-w-[500px] flex-col rounded-3xl bg-gray-50 shadow-lg dark:bg-gray-700 sm:h-[500px]">
-          <Button
-            icon={<X />}
-            backgroundClasses="absolute self-end m-4"
-            onClick={onDismiss}
-            type="secondary"
-            dataTestId="close-modal"
-          />
-          <div
-            className={`flex h-1/2 max-h-[264px] w-full grow self-center
-              rounded-t-3xl bg-auto bg-center bg-no-repeat ${
-                isOnFirstView() ? 'max-w-[10rem] dark:invert' : ''
-              }`}
-            style={
-              currentView.headerImage && !currentView.hasWebp
-                ? {
-                    backgroundImage: `url("${currentView.headerImage.pathname}")`,
-                    backgroundSize: `${currentView.isMainTitle ? 'contain' : 'cover'} `,
-                  }
-                : {}
-            }
-          >
-            {currentView.headerImage && currentView.hasWebp && (
-              <picture className="overflow-hidden" style={{}}>
-                <source
-                  srcSet={`${currentView.headerImage.pathname}.webp`}
-                  type="image/webp"
-                />
-                <img
-                  src={`${currentView.headerImage.pathname}.png`}
-                  alt=""
-                  className="w-full rounded-t-3xl object-top"
-                  draggable={false}
-                />
-              </picture>
+        <div className="flex items-center justify-center self-center">
+          <div className="z-10 -mr-4 flex w-full max-w-[35px] flex-col items-start pl-1 sm:mr-0 sm:max-w-[60px] sm:items-end sm:px-2">
+            {!isOnFirstView() && (
+              <Button
+                icon={<ChevronLeft />}
+                onClick={handleBack}
+                type="secondary"
+                dataTestId="back-button"
+              />
             )}
           </div>
-          <div className="flex w-auto flex-col justify-center overflow-y-scroll rounded-b-3xl px-4 pt-6 text-center dark:bg-gray-700">
-            {currentView.renderContent(t)}
+          <div className="relative flex h-[450px] w-auto max-w-[500px] flex-col rounded-3xl bg-gray-50 shadow-lg dark:bg-gray-700 sm:h-[500px]">
+            <Button
+              icon={<X />}
+              backgroundClasses="absolute self-end m-4"
+              onClick={onDismiss}
+              type="secondary"
+              dataTestId="close-modal"
+            />
+            <div
+              className={`flex h-1/2 max-h-[264px] w-full grow self-center
+                rounded-t-3xl bg-auto bg-center bg-no-repeat ${
+                  isOnFirstView() ? 'max-w-[10rem] dark:invert' : ''
+                }`}
+              style={
+                currentView.headerImage && !currentView.hasWebp
+                  ? {
+                      backgroundImage: `url("${currentView.headerImage.pathname}")`,
+                      backgroundSize: `${currentView.isMainTitle ? 'contain' : 'cover'} `,
+                    }
+                  : {}
+              }
+            >
+              {currentView.headerImage && currentView.hasWebp && (
+                <picture className="overflow-hidden" style={{}}>
+                  <source
+                    srcSet={`${currentView.headerImage.pathname}.webp`}
+                    type="image/webp"
+                  />
+                  <img
+                    src={`${currentView.headerImage.pathname}.png`}
+                    alt=""
+                    className="w-full rounded-t-3xl object-top"
+                    draggable={false}
+                  />
+                </picture>
+              )}
+            </div>
+            <div className="flex w-auto flex-col justify-center overflow-y-scroll rounded-b-3xl px-4 pt-6 text-center dark:bg-gray-700">
+              {currentView.renderContent(t)}
+            </div>
+          </div>
+          <div className="z-10 -ml-4 flex w-full max-w-[35px] flex-col items-end px-2 sm:ml-0 sm:max-w-[60px]">
+            {RightButton}
           </div>
         </div>
-        <div className="absolute bottom-[-60px] left-auto  h-[40px] self-center">
+        <div className="flex h-[40px] justify-center pt-6">
           {views.map((view: Page, index: number) => (
             <button
               key={`modal-step-item-${index}`}
@@ -127,9 +131,6 @@ function Modal({
               onClick={() => setCurrentViewIndex(index)}
             />
           ))}
-        </div>
-        <div className="z-10 -ml-4 flex w-full max-w-[35px] flex-col items-end px-2 sm:ml-0 sm:max-w-[60px]">
-          {RightButton}
         </div>
       </div>
     </>
