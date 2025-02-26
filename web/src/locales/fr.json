@@ -42,6 +42,7 @@
   },
   "more-options-dropdown": {
     "title": "Partager",
+    "download": "Télecharger le CSV",
     "chart-title": "Partager le graphique",
     "zone-title": "Partager la zone",
     "mobile-share-via": "Partager via",
@@ -174,6 +175,21 @@
   "estimation-card": {
     "link": "En savoir plus sur nos modèles d'estimation",
     "outage-details": "Voir les détails",
+    "ESTIMATED_FORECASTS_HIERARCHY": {
+      "title": "Les Données sont préliminaires",
+      "pill": "Préliminaires",
+      "body": "Les données pour cette heure n'ont pas encore été confirmeés et sont basées sur des données préliminaires."
+    },
+    "ESTIMATED_TIME_SLICER_AVERAGE": {
+      "title": "Les Données sont préliminaires",
+      "pill": "Préliminaires",
+      "body": "Les données pour cette heure n'ont pas encore été confirmeés et sont basées sur des données préliminaires."
+    },
+    "ESTIMATED_MODE_BREAKDOWN": {
+      "title": "Les données sont partiellement estimées",
+      "pill": "Partiellement estimées",
+      "body": "Les données rapportées pour cette zone sont incomplètes; des modèles d'estimation sont utilisés pour estimés les moyens de productions manquants."
+    },
     "estimated_generic_method": {
       "title": "Données estimées",
       "pill": "Incomplètes",
