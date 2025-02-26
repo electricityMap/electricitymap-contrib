@@ -5,7 +5,7 @@ from datetime import datetime, time, timedelta, timezone
 from itertools import groupby
 from logging import Logger, getLogger
 from operator import itemgetter
-from typing import Literal
+from typing import Any, Literal
 from zoneinfo import ZoneInfo
 
 import demjson3 as demjson
@@ -87,13 +87,19 @@ def _get_api_subscription_key(session: Session) -> str:
 
 
 def _fetch_api_data(
-    kind: Literal["load_frcstd_7_day", "gen_by_fuel"], params: dict, session: Session
+    kind: Literal[
+        "load_frcstd_7_day",
+        "gen_by_fuel",
+        "hourly_solar_power_forecast",
+        "hourly_wind_power_forecast",
+    ],
+    params: dict,
+    session: Session,
 ) -> dict:
     headers = {
         "Ocp-Apim-Subscription-Key": _get_api_subscription_key(session=session),
         "Accept-Encoding": "identity",
     }
-
     url = f"{US_PROXY}/{DATA_PATH}/{kind}"
     resp: Response = session.get(
         url=url, params={"host": "https://api.pjm.com", **params}, headers=headers
@@ -196,6 +202,78 @@ def fetch_production(
         )
 
     return production_breakdown_list.to_list()
+
+
+def fetch_wind_solar_forecasts(
+    zone_key: ZoneKey = ZONE_KEY,
+    session: Session | None = None,
+    target_datetime: datetime | None = None,
+    logger: Logger = getLogger(__name__),
+) -> list[dict[str, Any]]:
+    """Uses PJM API to request the wind and solar forecast (in MW) for a given date in hourly intervals."""
+
+    session = session or Session()
+
+    # Datetime
+    target_datetime = (
+        datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
+        if target_datetime is None
+        else target_datetime.astimezone(timezone.utc)
+    )
+
+    # Config for url
+    params = {
+        "startRow": 1,
+        "rowCount": 10000,
+        "datetime_beginning_utc": target_datetime.strftime("%Y-%m-%dT%H:00:00.0000000"),
+    }
+
+    resp_data_wind = _fetch_api_data(
+        kind="hourly_wind_power_forecast", params=params, session=session
+    )
+    items_wind = resp_data_wind.get("items", [])
+
+    resp_data_solar = _fetch_api_data(
+        kind="hourly_solar_power_forecast", params=params, session=session
+    )
+    items_solar = resp_data_solar.get("items", [])
+
+    # Combine wind and solar data and sort by datetime_beginning_utc
+    items = items_wind + items_solar
+    items.sort(key=lambda x: (x["datetime_beginning_utc"], x["evaluated_at_utc"]))
+    production_list = ProductionBreakdownList(logger)
+
+    # Group by datetime_beginning_utc and get the last evaluated_at_utc entry for each group
+    for datetime_utc, group in groupby(
+        items, key=lambda x: x["datetime_beginning_utc"]
+    ):
+        group_list = list(group)
+        wind_entries = [entry for entry in group_list if "wind_forecast_mwh" in entry]
+        latest_entry_wind = max(wind_entries, key=lambda x: x["evaluated_at_utc"])
+        solar_entries = [entry for entry in group_list if "solar_forecast_mwh" in entry]
+        latest_entry_solar = max(solar_entries, key=lambda x: x["evaluated_at_utc"])
+
+        production_mix = ProductionMix()
+        production_mix.add_value(
+            "solar",
+            latest_entry_solar["solar_forecast_mwh"],
+            correct_negative_with_zero=True,
+        )
+        production_mix.add_value(
+            "wind",
+            latest_entry_wind["wind_forecast_mwh"],
+            correct_negative_with_zero=True,
+        )
+
+        production_list.append(
+            zoneKey=zone_key,
+            datetime=datetime.fromisoformat(datetime_utc).replace(tzinfo=timezone.utc),
+            production=production_mix,
+            source=SOURCE,
+            sourceType=EventSourceType.forecasted,
+        )
+
+    return production_list.to_list()
 
 
 def fetch_price(
@@ -335,15 +413,15 @@ def fetch_exchange(
 
 
 if __name__ == "__main__":
-    print("fetch_consumption_forecast_7_days() ->")
-    print(fetch_consumption_forecast_7_days())
+    # print("fetch_consumption_forecast_7_days() ->")
+    # print(fetch_consumption_forecast_7_days())
 
-    print("fetch_production() ->")
-    print(fetch_production())
+    # print("fetch_production() ->")
+    # print(fetch_production())
 
-    print("fetch_price() ->")
-    print(fetch_price())
-
+    # print("fetch_price() ->")
+    # print(fetch_price())
+    """
     for neighbor in [
         "US-CAR-DUK",
         "US-CAR-CPLE",
@@ -355,3 +433,6 @@ if __name__ == "__main__":
     ]:
         print(f"fetch_exchange(US-MIDA-PJM, {neighbor}) ->")
         print(fetch_exchange(ZONE_KEY, ZoneKey(neighbor)))
+"""
+    print("fetch_wind_solar_forecasts() ->")
+    print(fetch_wind_solar_forecasts())

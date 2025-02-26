@@ -179,6 +179,7 @@ contributors:
   - KabelWlan
   - amv213
   - VIKTORVAV99
+  - alejandranavcas
 country: US
 delays:
   production: 7
@@ -490,6 +491,7 @@ parsers:
   price: US_PJM.fetch_price
   production: US_PJM.fetch_production
   productionCapacity: EIA.fetch_production_capacity
+  productionPerModeForecast: US_PJM.fetch_wind_solar_forecasts
 region: Americas
 sources:
   INCER ACV:

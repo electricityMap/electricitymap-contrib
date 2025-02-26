@@ -1,4 +1,344 @@
 # serializer version: 1
+# name: test_fetch_wind_solar_forecasts
+  list([
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 0, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 0.0,
+        'wind': 5674.163,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 1, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 0.0,
+        'wind': 6406.127,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 2, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 0.0,
+        'wind': 6771.246,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 3, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 0.0,
+        'wind': 6846.105,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 4, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 0.0,
+        'wind': 6889.084,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 5, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 0.0,
+        'wind': 7046.181,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 6, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 0.0,
+        'wind': 7141.57,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 7, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 0.0,
+        'wind': 7272.236,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 8, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 0.0,
+        'wind': 7393.612,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 9, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 0.0,
+        'wind': 7533.526,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 10, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 0.0,
+        'wind': 7749.602,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 11, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 15.852,
+        'wind': 7933.133,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 12, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 1275.265,
+        'wind': 7865.394,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 13, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 5048.272,
+        'wind': 7547.31,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 14, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7336.233,
+        'wind': 7193.234,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 15, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7802.926,
+        'wind': 6876.753,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 16, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7680.094,
+        'wind': 6583.043,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 17, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7496.111,
+        'wind': 6259.908,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 18, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 7269.733,
+        'wind': 5886.133,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 19, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6945.879,
+        'wind': 5548.17,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 20, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 6374.432,
+        'wind': 5264.66,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 21, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 3759.787,
+        'wind': 4939.546,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 22, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 637.059,
+        'wind': 4831.753,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+    dict({
+      'correctedModes': list([
+      ]),
+      'datetime': datetime.datetime(2025, 2, 24, 23, 0, tzinfo=datetime.timezone.utc),
+      'production': dict({
+        'solar': 3.684,
+        'wind': 5007.297,
+      }),
+      'source': 'pjm.com',
+      'sourceType': <EventSourceType.forecasted: 'forecasted'>,
+      'storage': dict({
+      }),
+      'zoneKey': 'US-MIDA-PJM',
+    }),
+  ])
+# ---
 # name: test_production
   list([
     dict({
