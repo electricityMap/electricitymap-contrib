@@ -3,19 +3,25 @@
 
 """Real time parser for the New England ISO (NEISO) area."""
 
+import io
 import time
 from datetime import datetime, timedelta, timezone
 from logging import Logger, getLogger
 from typing import Any
 from zoneinfo import ZoneInfo
 
+import pandas as pd
 from requests import Session
 
 from electricitymap.contrib.lib.models.event_lists import (
     ExchangeList,
     ProductionBreakdownList,
 )
-from electricitymap.contrib.lib.models.events import ProductionMix, StorageMix
+from electricitymap.contrib.lib.models.events import (
+    EventSourceType,
+    ProductionMix,
+    StorageMix,
+)
 from electricitymap.contrib.lib.types import ZoneKey
 from parsers.lib.config import refetch_frequency
 
@@ -225,11 +231,110 @@ def fetch_exchange(
     return exchanges.to_list()
 
 
+def fetch_wind_solar_forecasts(
+    zone_key: ZoneKey = US_NEISO_KEY,
+    session: Session | None = None,
+    target_datetime: datetime | None = None,
+    logger: Logger = getLogger(__name__),
+) -> list[dict[str, Any]]:
+    """Requests wind and solar power forecast in MW for 7 days"""
+
+    # Datetime
+    target_datetime = (
+        datetime.now(timezone.utc)
+        if target_datetime is None
+        else target_datetime.astimezone(timezone.utc)
+    )
+    target_datetime = target_datetime.astimezone(tz=ZoneInfo("America/New_York"))
+    if (
+        target_datetime.hour <= 10
+    ):  # the data is updated every day at approximately 10:00:00-05:00
+        target_datetime = target_datetime - timedelta(days=1)
+    target_datetime_string = target_datetime.strftime("%Y%m%d")
+
+    # Request url
+    session = session or Session()
+    merged_data = None
+    for data_type in ["solar", "wind"]:
+        # Get cookies by accessing the forecast pages
+        session.get(
+            "https://www.iso-ne.com/isoexpress/web/reports/operations/-/tree/seven-day-"
+            + data_type
+            + "-power-forecast"
+        )
+        response = session.get(
+            "https://www.iso-ne.com/transform/csv/"
+            + data_type[0]
+            + "phf?start="
+            + target_datetime_string
+        )
+
+        # Get dataframe
+        df = pd.read_csv(
+            io.StringIO(response.content.decode("utf8")),
+            skiprows=[0, 1, 2, 3, 4, 5],
+            skipfooter=1,
+            engine="python",
+        ).drop_duplicates()
+
+        df = df.drop(columns=["D", "Date"])
+
+        data = df.melt(
+            id_vars=["Hour Ending"],
+            var_name="Date",
+            value_name=data_type,
+        ).dropna(subset=[data_type])
+
+        if merged_data is None:
+            # For the first iteration (solar), just store the data
+            merged_data = data
+        else:
+            # For the second iteration (wind), merge with the first data
+            merged_data = pd.merge(
+                merged_data, data, on=["Hour Ending", "Date"], how="outer"
+            )
+
+    # Combine Date and Hour Ending into a datetime iso column
+    merged_data["datetime"] = pd.to_datetime(
+        merged_data["Date"]
+        + " "
+        + (merged_data["Hour Ending"] - 1).astype(str)
+        + ":00",
+        format="%m/%d/%Y %H:%M",
+    )
+    merged_data["datetime_iso"] = merged_data["datetime"].dt.strftime(
+        "%Y-%m-%dT%H:%M:%S"
+    )
+    data_final = merged_data[["datetime_iso", "solar", "wind"]]
+
+    # All events with a datetime and a production breakdown
+    all_production_events = data_final.copy()
+    production_list = ProductionBreakdownList(logger)
+    for _index, event in all_production_events.iterrows():
+        event_datetime = datetime.fromisoformat(event["datetime_iso"]).astimezone(
+            tz=ZoneInfo("America/New_York")
+        )
+        production_mix = ProductionMix()
+        production_mix.add_value(
+            "solar", event["solar"], correct_negative_with_zero=True
+        )
+        production_mix.add_value("wind", event["wind"], correct_negative_with_zero=True)
+        production_list.append(
+            zoneKey=zone_key,
+            datetime=event_datetime,
+            production=production_mix,
+            source=SOURCE,
+            sourceType=EventSourceType.forecasted,
+        )
+    return production_list.to_list()
+
+
 if __name__ == "__main__":
     """Main method, never used by the Electricity Map backend, but handy for testing."""
 
     from pprint import pprint
 
+    """
     print("fetch_production() ->")
     pprint(fetch_production())
 
@@ -275,3 +380,7 @@ if __name__ == "__main__":
             target_datetime=datetime.fromisoformat("2007-03-13T12:00:00+00:00"),
         )
     )
+    """
+
+    print("fetch_wind_solar_forecasts()")
+    pprint(fetch_wind_solar_forecasts())

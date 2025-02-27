@@ -150,6 +150,7 @@ contributors:
   - systemcatch
   - robertahunt
   - KabelWlan
+  - alejandranavcas
 country: US
 delays:
   production: 5
@@ -460,6 +461,7 @@ parsers:
   consumptionForecast: EIA.fetch_consumption_forecast
   production: US_NEISO.fetch_production
   productionCapacity: EIA.fetch_production_capacity
+  productionPerModeForecast: US_NEISO.fetch_wind_solar_forecasts
 region: Americas
 sources:
   INCER ACV:
