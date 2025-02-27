@@ -431,10 +431,9 @@ fallbackZoneMixes:
         wind: 0.03966033748337813
 parsers:
   consumption: EIA.fetch_consumption
-  consumptionForecast: EIA.fetch_consumption_forecast
+  consumptionForecast: US_NY.fetch_consumption_forecast
   production: US_NY.fetch_production
   productionCapacity: EIA.fetch_production_capacity
-  generationForecast: US_NY.fetch_generation_forecast
 region: Americas
 sources:
   INCER ACV:

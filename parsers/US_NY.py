@@ -19,7 +19,7 @@ from electricitymap.contrib.config import ZoneKey
 from electricitymap.contrib.lib.models.event_lists import (
     ExchangeList,
     ProductionBreakdownList,
-    TotalProductionList,
+    TotalConsumptionList,
 )
 from electricitymap.contrib.lib.models.events import EventSourceType, ProductionMix
 from parsers.lib.config import refetch_frequency
@@ -232,7 +232,7 @@ def fetch_exchange(
     return exchange_5min.to_list()
 
 
-def fetch_generation_forecast(
+def fetch_consumption_forecast(
     zone_key: ZoneKey = ZoneKey(ZONE),
     session: Session | None = None,
     target_datetime: datetime | None = None,
@@ -261,21 +261,21 @@ def fetch_generation_forecast(
     target_url = f"http://mis.nyiso.com/public/csv/isolf/{ny_date}isolf.csv"
     df = pd.read_csv(target_url)
 
-    # Add events generation_list
-    all_generation_events = (
+    # Add events consumption_list
+    all_consumption_events = (
         df.copy()
     )  # all events with a datetime and a generation value
-    generation_list = TotalProductionList(logger)
-    for _index, event in all_generation_events.iterrows():
+    consumption_list = TotalConsumptionList(logger)
+    for _index, event in all_consumption_events.iterrows():
         event_datetime = timestamp_converter(event["Time Stamp"])
-        generation_list.append(
+        consumption_list.append(
             zoneKey=zone_key,
             datetime=event_datetime,
-            value=event["NYISO"],
+            consumption=event["NYISO"],
             source=SOURCE,
             sourceType=EventSourceType.forecasted,
         )
-    return generation_list.to_list()
+    return consumption_list.to_list()
 
 
 if __name__ == "__main__":
@@ -312,5 +312,5 @@ if __name__ == "__main__":
     pprint(fetch_exchange("US-NY", "CA-QC", target_datetime=datetime(2007, 3, 13, 12)))
     """
 
-    print("fetch_generation_forecast() ->")
-    pprint(fetch_generation_forecast())
+    print("fetch_consumption_forecast() ->")
+    pprint(fetch_consumption_forecast())
