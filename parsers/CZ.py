@@ -141,6 +141,51 @@ def __get_exchange_data(
     return exchanges.to_list()
 
 
+def get_pumping_load(
+    zone_key: ZoneKey = ZoneKey("CZ"),
+    session: Session = Session(),
+    target_datetime: datetime | None = None,
+    logger: Logger = getLogger(__name__),
+) -> list:
+    target_datetime = get_target_datetime(target_datetime)
+    from_datetime = target_datetime - timedelta(hours=48)
+
+    payload = """<?xml version="1.0" encoding="utf-8"?>
+        <soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+        <soap12:Body>
+            <Load xmlns="https://www.ceps.cz/CepsData/">
+            <dateFrom>{}</dateFrom>
+            <dateTo>{}</dateTo>
+            <agregation>{}</agregation>
+            <function>{}</function>
+            <version>{}</version>
+            </Load>
+        </soap12:Body>
+        </soap12:Envelope>""".format(
+        from_datetime.isoformat(), target_datetime.isoformat(), "QH", "AVG", "RT"
+    )
+
+    content = make_request(session, payload, zone_key).text
+    xml = BeautifulSoup(content, "xml")
+    data_tag = xml.find("data")
+    pumping_load_at_time_dict = {}
+
+    if data_tag is not None:
+        for values in data_tag:
+            pumping_load_at_time_dict[values["date"]] = float(values["value1"]) - float(
+                values["value2"]
+            )
+
+    else:
+        ParserException(
+            "CZ.py",
+            f"There was no pumping load data returned for {zone_key} at {target_datetime}",
+            zone_key,
+        )
+
+    return pumping_load_at_time_dict
+
+
 @refetch_frequency(timedelta(days=2))
 def fetch_production(
     zone_key: ZoneKey = ZoneKey("CZ"),
@@ -174,17 +219,28 @@ def fetch_production(
     data_tag = xml.find("data")
     production_breakdowns = ProductionBreakdownList(logger)
 
+    pumping_load_at_time = get_pumping_load(
+        zone_key=zone_key,
+        session=session,
+        target_datetime=target_datetime,
+        logger=logger,
+    )
+
     if data_tag is not None:
         for values in data_tag:
             production = ProductionMix()
             storage = StorageMix()
-
             for k, v in mapper.items():
                 generator = translate_table_gen[k]
                 if k != "PsPP":
                     production.add_value(mode=generator, value=float(values[v]))
                 else:
-                    storage.add_value(mode=generator, value=float(values[v]) * -1)
+                    pumping_storage = float(values[v]) * -1
+                    if values["date"] in pumping_load_at_time:
+                        pumping_storage += pumping_load_at_time[values["date"]]
+                    storage.add_value(mode=generator, value=float(pumping_storage))
+
+            # # sum production to get
 
             production_breakdowns.append(
                 zoneKey=zone_key,
@@ -233,10 +289,16 @@ if __name__ == "__main__":
     """Main method, never used by the Electricity Map backend, but handy for testing."""
 
     # print("fetch_production() ->")
+    print(fetch_production())
+    # temp = fetch_production()
+    # for i in temp:
+    #     print(i['storage'], i['datetime'])
     # print(fetch_production())
+    # print(get_pumping_load())
     # print("fetch_price() ->")
     # print(fetch_price())
     # print("fetch_exchange_forecast('AT', 'CZ') ->")
     # print(fetch_exchange_forecast("AT", "CZ"))
-    print("fetch_exchange('AT', 'CZ') ->")
-    print(fetch_exchange(ZoneKey("AT"), ZoneKey("CZ")))
+    # print("fetch_exchange('AT', 'CZ') ->")
+    # print(fetch_exchange(ZoneKey("AT"), ZoneKey("CZ")))
+    # print(get_pumping_load)
