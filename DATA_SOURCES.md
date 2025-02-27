@@ -476,6 +476,7 @@ Cross-border transmission capacities between the zones are centralized in the [c
 - Australia (Victoria) ⇄ Australia (Tasmania): ["Basslink": 500 MW (regular) or 630 MW (temporarily)](https://en.wikipedia.org/wiki/Basslink)
 - Belgium ⇄ Germany ["Alegro": 1000MW](https://www.elia.be/en/infrastructure-and-projects/infrastructure-projects/alegro?clang=en)
 - [Bosnia and Herzegovina ⇄ Croatia](https://op.europa.eu/en/publication-detail/-/publication/785f224b-93cd-11e9-9369-01aa75ed71a1/language-en?WT.mc_id=Searchresult&WT.ria_c=37085&WT.ria_f=3608&WT.ria_ev=sea)
+- [Brazil (South) ⇄ Uruguai](https://www.cigre.org/userfiles/files/Community/NC/2018_National-power-system_Brazil.pdf#page=4)
 - Bulgaria ⇄ Greece: [700 MW](https://ibex.bg/markets/dam/cross-zonal-capacities/)
 - Bulgaria ⇄ North Macedonia [950 MW](https://ec.europa.eu/energy/sites/ener/files/documents/2nd_report_ic_with_neighbouring_countries_b5.pdf)
 - Bulgaria ⇄ Turkey [2485 MW](https://ec.europa.eu/energy/sites/ener/files/documents/2nd_report_ic_with_neighbouring_countries_b5.pdf)
