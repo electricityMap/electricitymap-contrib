@@ -54,6 +54,10 @@ capacity:
     - datetime: '2024-01-01'
       source: entsoe.eu
       value: 1503.0
+  # (en) https://en.wikipedia.org/wiki/Renewable_energy_in_Lithuania#Hydroelectricity
+  # * Kruonis Pumped Storage Plant (900 MW)
+  # * Kaunas Hydroelectric Power Plant (100.8 MW)
+  # (en) https://en.wikipedia.org/wiki/List_of_power_stations_in_Lithuania
   hydro:
     - datetime: '2017-01-01'
       source: entsoe.eu
@@ -61,10 +65,18 @@ capacity:
     - datetime: '2024-01-01'
       source: entsoe.eu
       value: 129.0
+    - datetime: '2025-02-01'
+      source: Wikipedia
+      value: 1000.8
+  # (en) https://en.wikipedia.org/wiki/Kruonis_Pumped_Storage_Plant
+  # source: https://ignitisgamyba.lt/veikla/elektros-energijos-gamyba-ir-prekyba/kruonio-hidroakumuliacine-elektrine-kruonio-hae/136
+  # source: https://old.gamta.lt/files/Kruonio%20hidroakumuliacin%C4%97s%20elektrin%C4%97s%20papildyta%20info.pdf#page=10
   hydro storage:
-    - datetime: '2017-01-01'
-      source: entsoe.eu
-      value: 900.0
+    - datetime: '2025-02-01'
+      # (lv) https://lv.wikipedia.org/wiki/Ignitis_gamyba
+      source: Ignitis gamyba
+      # 220 MW * 4
+      value: 880.0
   oil:
     - datetime: '2017-01-01'
       source: entsoe.eu
