@@ -1618,6 +1618,52 @@
     },
     "ZW": {
       "zoneName": "Zimbabwe"
-    }
+    },
+    "IN": {
+   "zoneName": "இந்தியாவின் பிரதான நிலம்"
+},
+"IN-EA": {
+   "countryName": "இந்தியா",
+   "zoneName": "கிழக்கு இந்தியா"
+},
+"IN-NE": {
+   "countryName": "இந்தியா",
+   "zoneName": "வடகிழக்கு இந்தியா"
+},
+"IN-NO": {
+   "countryName": "இந்தியா",
+   "zoneName": "வட இந்தியா"
+},
+"IN-SO": {
+   "countryName": "இந்தியா",
+   "zoneName": "தெற்கு இந்தியா"
+},
+"IN-WE": {
+   "countryName": "இந்தியா",
+   "zoneName": "மேல் இந்தியா"
+},"IN": {
+   "zoneName": "భారత ప్రధాన భూమి"
+},
+"IN-EA": {
+   "countryName": "భారతదేశం",
+   "zoneName": "కూర్పు భారతదేశం"
+},
+"IN-NE": {
+   "countryName": "భారతదేశం",
+   "zoneName": "ఉత్తర-కూర్పు భారతదేశం"
+},
+"IN-NO": {
+   "countryName": "భారతదేశం",
+   "zoneName": "ఉత్తర భారతదేశం"
+},
+"IN-SO": {
+   "countryName": "భారతదేశం",
+   "zoneName": "దక్షిణ భారతదేశం"
+},
+"IN-WE": {
+   "countryName": "భారతదేశం",
+   "zoneName": "పశ్చిమ భారతదేశం"
+}
+
   }
 }

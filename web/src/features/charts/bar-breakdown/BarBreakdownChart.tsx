@@ -159,7 +159,7 @@ function BarBreakdownChart({
             />
             <button
               onClick={() => setTooltipData(null)}
-              className="p-auto pointer-events-auto flex h-8 w-8 items-center justify-center rounded-full bg-white shadow dark:bg-gray-800 sm:hidden"
+              className="p-auto pointer-events-auto flex h-9 w-9 items-center justify-center rounded-full bg-white shadow dark:bg-gray-800 sm:hidden"
             >
               <X />
             </button>
